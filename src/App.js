@@ -1,11 +1,12 @@
 import React from 'react';
-
+import Introduction from './components/Introduction';
 
 function App() {
   return (
-    <div>
-      <p>Here we go</p>
-    </div>
+    <>
+      <Introduction />
+      
+    </>
   );
 }
 
