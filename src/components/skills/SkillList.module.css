@@ -1,0 +1,23 @@
+
+.container {
+  padding: 0 50px;
+  background-color: burlywood;
+  border-bottom: 1px solid black;
+}
+
+
+.title{
+  padding-top: 55px;
+  text-align: center;
+  text-transform:uppercase;
+  font-style: italic;
+  margin: 0;
+}
+
+.skill-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top:20px;
+}
