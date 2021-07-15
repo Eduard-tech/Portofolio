@@ -1,8 +1,8 @@
 
 .container {
   padding: 0 50px;
-  background-color: burlywood;
   border-bottom: 1px solid black;
+  height: 80vh;
 }
 
 
@@ -12,12 +12,16 @@
   text-transform:uppercase;
   font-style: italic;
   margin: 0;
+  margin-bottom: 120px;
 }
 
 .skill-grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
   margin-top:20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    margin-bottom: 70px;
+  }
 }

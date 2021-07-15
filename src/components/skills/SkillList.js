@@ -5,7 +5,7 @@ import classes from "./SkillList.module.css"
 const skills=[
   {name: "HTML" ,imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png"},
   {name: "CSS" ,imgUrl: "https://www.svgrepo.com/show/170099/css-file-format-symbol.svg"},
-  {name: "Javscript" ,imgUrl: "https://iconape.com/wp-content/files/ez/353342/svg/javascript-seeklogo.com.svg"},
+  {name: "Javascript" ,imgUrl: "https://iconape.com/wp-content/files/ez/353342/svg/javascript-seeklogo.com.svg"},
   {name: "Bootstrap" ,imgUrl: "https://cdn.volaresystems.com/Images/Posts/2019/12/bootstrap.png"},
   {name: "ReactJs" ,imgUrl: "https://user-images.githubusercontent.com/21227322/31187159-01c8d592-a8ff-11e7-9386-af708a7ae9de.png"},
   {name: "Ruby on Rails" ,imgUrl: "https://www.shareicon.net/data/256x256/2015/08/30/93005_on_395x512.png"},
