@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sedgwick+Ave+Display&display=swap');
 
 .introduction {
-  background-color: beige;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -28,9 +27,51 @@
 .button {
   font-size: 2rem;
   border: none;
-  background-color: chocolate;
+  background-color: #fd4345;
   font-family: 'Permanent Marker', cursive;
 
   padding: 1rem;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 821px) {
+  .name {
+    font-size: 4.5rem;
+  }
+  .job {
+    font-size: 3.5rem;
+  }
+
+  .button {
+    font-size:1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+  .name {
+    font-size: 3.5rem;
+  }
+  .job {
+    font-size: 2.5rem;
+  }
+
+  .button {
+    font-size:1.5rem;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .name {
+    font-size: 2.5rem;
+  }
+  .job {
+    font-size: 1.8rem;
+  }
+
+  .button {
+    font-size:1.1rem;
+  }
+
 }
