@@ -6,10 +6,9 @@ import Project from './components/project/Project';
 function App() {
   return (
     <>
-      <Introduction />
-      <SkillList />
-  
-      <Project />
+      <section><Introduction /></section>
+      <section><Project /></section>
+      <section><SkillList /></section>
     </>
   );
 }

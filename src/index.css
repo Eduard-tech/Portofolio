@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
 }
@@ -18,4 +19,43 @@ body {
   /* background-image: url("");
   background-repeat: no-repeat;
   background-attachment: fixed; */
+}
+
+/* .videoss {
+  z-index: -1;
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+}
+ */
+
+ /* body {
+
+  background: -webkit-linear-gradient(90deg, #fd4345 10%, #2d3e53 90%); 
+  background:    -moz-linear-gradient(90deg, #fd4345 10%, #263547 90%); 
+  background:     -ms-linear-gradient(90deg, #fd4345 10%, #263547 90%); 
+  background:      -o-linear-gradient(90deg, #fd4345 10%, #263547 90%); 
+  background:         linear-gradient(90deg, #fd4345 10%, #263547 90%); 
+        
+} */
+
+body {
+
+  background: -webkit-linear-gradient(90deg, #263547 10%, #fd4345 90%);
+  background:    -moz-linear-gradient(90deg, #263547 10%, #fd4345 90%);
+  background:     -ms-linear-gradient(90deg, #263547 10%, #fd4345 90%); 
+  background:      -o-linear-gradient(90deg, #263547 10%, #fd4345 90%); 
+  background:         linear-gradient(90deg, #263547 10%, #fd4345 90%);
+        
+}
+section {
+  /* height: 100vh; */
+  scroll-snap-align: start;
+}
+
+
+#root {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height:100vh;
 }
