@@ -33,7 +33,6 @@ function Project() {
             <img src={project.img} alt="yes" />
             <div className={classes.info}>
               <h1 className={classes.title}>{project.name}</h1>
-              <p className={classes.description}>{project.description}</p>
             </div>
           </SwiperSlide>
     );

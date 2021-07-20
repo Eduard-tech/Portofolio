@@ -11,7 +11,7 @@ body {
   /* background-color: #263547; */
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color: #000;
+  color: #07020D ;
   margin: 0;
   padding: 0;
 
@@ -26,8 +26,8 @@ body {
   min-height: 100%;
   width: 100%;
   position: fixed;
-}
- */
+} */
+
 
  /* body {
 
@@ -40,13 +40,24 @@ body {
 } */
 
 body {
-
-  background: -webkit-linear-gradient(90deg, #263547 10%, #fd4345 90%);
+  /* background: -webkit-linear-gradient(90deg, #263547 10%, #fd4345 90%);
   background:    -moz-linear-gradient(90deg, #263547 10%, #fd4345 90%);
   background:     -ms-linear-gradient(90deg, #263547 10%, #fd4345 90%); 
   background:      -o-linear-gradient(90deg, #263547 10%, #fd4345 90%); 
-  background:         linear-gradient(90deg, #263547 10%, #fd4345 90%);
-        
+  background:         linear-gradient(90deg, #263547 10%, #fd4345 90%); */
+/*   
+  background-size: 200%; 
+  animation: bg-animation 8s infinite alternate; */
+  
+  /* background-image: url("https://hdwallsource.com/img/2014/8/depth-35675-36488-hd-wallpapers.jpg"); */
+  
+  background-image: url("https://wallpapercave.com/wp/wp1536539.jpg");
+  background-image: url("./assets/bk-tech.png");
+  
+  /* background-image: url("https://www.pikpng.com/pngl/b/578-5782721_technology-background-white-png-tech-background-image-for.png"); */
+  
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 2.5px );
 }
 section {
   /* height: 100vh; */
@@ -59,3 +70,8 @@ section {
   overflow-y: scroll;
   height:100vh;
 }
+
+/* @keyframes bg-animation {
+  0% {background-position: left;}
+  100% {background-position: right;}
+} */

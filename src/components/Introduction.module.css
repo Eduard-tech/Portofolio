@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Slab', serif; 
+*/
 
 .introduction {
   height: 100vh;
@@ -12,14 +18,14 @@
 
 .name {
   margin:0;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Roboto Slab', serif; 
   /* font-family: 'Sedgwick Ave Display', cursive; */
   font-size: 6rem;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .job {
-  font-family: 'Sedgwick Ave Display', cursive;
+  font-family: 'Montserrat', sans-serif;
   /* font-family: 'Permanent Marker', cursive; */
 
 }
@@ -27,9 +33,9 @@
 .button {
   font-size: 2rem;
   border: none;
-  background-color: #fd4345;
-  font-family: 'Permanent Marker', cursive;
-
+  background-color: #07020D;
+  font-family: 'Roboto Slab', serif; 
+  color: #DE1A1A;
   padding: 1rem;
   cursor: pointer;
 }

@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+
+/* 
+font-family: 'Roboto Slab', serif; 
+font-family: 'Montserrat', sans-serif;
+*/
 
 .project {
-  height: 100vh;
+  height: 80vh;
   border-bottom: 1px solid black;
 }
 
@@ -10,7 +17,9 @@
   text-transform:uppercase;
   font-style: italic;
   margin: 0;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
+  font-family: 'Roboto Slab', serif; 
+  font-size: 2.5rem;
 }
 
 .swiper-container {
@@ -42,12 +51,13 @@
 
 
 .info {
-  padding-top: 6px;
-  padding-left: 10px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
   color:white;
   position: absolute;
   bottom: 0;
-  height: 150px;
+  height: 100px;
   width: 720px;
   
   
@@ -55,28 +65,22 @@
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   backdrop-filter: blur( 15px );
   -webkit-backdrop-filter: blur( 2.5px );
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 1px solid rgba(0, 0, 0, 0.18);
 
   cursor: pointer;
   
 }
 
 .title{
-  font-size: 1.2rem;
+  font-size: 2rem;
   padding: 10px 0px 2px 20px;
   margin: 0;
-  color: #fd4345;
+  padding: 20px 0 20px 0;
+  color: #DE1A1A;
   text-shadow: 1px 1px 2px #263547;
+  font-family: 'Roboto Slab', serif; 
 }
 
-.description {
-  padding: 10px 20px 0px 10px;
-  margin: 0;
-  font-size: 1rem;
-  font-weight: bolder;
-  color: #fd4345;
-  text-shadow: 1px 1px 2px #263547;
-}
 
 /* .corner {
   background: rgba( 255, 255, 255, 0.25 );
@@ -103,7 +107,7 @@
   }
 
   .info {
-    height: 110px;
+    height: 60px;
     width: 300px;
   }
 
@@ -113,20 +117,11 @@
     padding-bottom: 60px;
   }
 
-  .corner {
-    top: 11px;
-    right: -23px;
-    font-weight: 600;
-  }
+
 
   .title {
-    padding-top: 5px;
-    font-size: 1rem;
-  }
-
-  .description {
-    padding-top: 5px;
-    font-size: 0.7rem;
+    padding: 13px 0 10px 0;
+    font-size: 1.3rem;
   }
 
   .project{
